@@ -8,35 +8,27 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TA-Lib'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of TA-Lib.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.4.0'
+  s.summary          = 'TA-Lib : Technical Analysis Library'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+Multi-Platform Tools for Market Analysis ...
+TA-Lib is widely used by trading software developers requiring to perform technical analysis of financial market data.
+Includes 200 indicators such as ADX, MACD, RSI, Stochastic, Bollinger Bands etc... (more info)
+Candlestick pattern recognition
+Open-source API for C/C++, Java, Perl, Python and 100% Managed .NET
+Free Open-Source Library
+TA-Lib is available under a BSD License allowing it to be integrated in your own open-source or commercial application. (more info)
+Commercial Application
+TA-Lib is also available as an easy to install Excel Add-Ins. Try it for free!
+
+    DESC
 
   s.homepage         = 'https://github.com/aelam/TA-Lib'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aelam' => 'wanglun02@gmail.com' }
-  s.source           = { :git => 'https://github.com/aelam/TA-Lib.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :http => 'http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz' }
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'TA-Lib/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'TA-Lib' => ['TA-Lib/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.ios.deployment_target = '6.0'
+  s.source_files = '**/*.{h,c,mm,swift}'
 end

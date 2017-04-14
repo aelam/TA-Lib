@@ -1,0 +1,6 @@
+framework module TA_Lib {
+  umbrella header "TA-Lib-umbrella.h"
+
+  export *
+  module * { export * }
+}

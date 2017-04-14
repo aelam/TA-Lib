@@ -1,0 +1,6 @@
+framework module Pods_TA_Lib_Example {
+  umbrella header "Pods-TA-Lib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

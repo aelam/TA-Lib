@@ -1,0 +1,21 @@
+PODS:
+  - TA-Lib (0.1.0)
+
+DEPENDENCIES:
+  - TA-Lib (from `../`)
+
+EXTERNAL SOURCES:
+  TA-Lib:
+    :git: "../"
+
+CHECKOUT OPTIONS:
+  TA-Lib:
+    :commit: c27a5d66b0f76fabe4fee7f9076e1949d11ef736
+    :git: "../"
+
+SPEC CHECKSUMS:
+  TA-Lib: e56bf3213b3b8840f2871127ac4a6e58ee492c8b
+
+PODFILE CHECKSUM: 618cb33087c8d56cb546819952725ce0a96f5197
+
+COCOAPODS: 1.2.0
