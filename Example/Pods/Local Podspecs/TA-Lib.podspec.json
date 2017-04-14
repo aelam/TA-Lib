@@ -12,11 +12,12 @@
     "aelam": "wanglun02@gmail.com"
   },
   "source": {
-    "http": "http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz"
+    "http": "https://github.com/aelam/TA-Lib.git"
   },
   "platforms": {
     "osx": "10.8",
     "ios": "6.0"
   },
-  "source_files": "TA-Lib/**/*.{h,c,mm,swift}"
+  "source_files": "TA-Lib/**/*.{h,c,mm,swift}",
+  "public_header_files": "TA-Lib/**/include/*.h"
 }
