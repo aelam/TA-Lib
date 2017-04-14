@@ -1,21 +1,16 @@
 PODS:
-  - TA-Lib (0.1.0)
+  - TA-Lib (0.4.0)
 
 DEPENDENCIES:
   - TA-Lib (from `../`)
 
 EXTERNAL SOURCES:
   TA-Lib:
-    :git: "../"
-
-CHECKOUT OPTIONS:
-  TA-Lib:
-    :commit: c27a5d66b0f76fabe4fee7f9076e1949d11ef736
-    :git: "../"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  TA-Lib: e56bf3213b3b8840f2871127ac4a6e58ee492c8b
+  TA-Lib: 1582b2b87606b788933e1132408d38606a42d07f
 
-PODFILE CHECKSUM: 618cb33087c8d56cb546819952725ce0a96f5197
+PODFILE CHECKSUM: 582866ab36bb15527cf3b07e15bb3cfc86c4882d
 
 COCOAPODS: 1.2.0
