@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TA-Lib_Example' do
+  pod 'TA-Lib', :path => '../'
+
+  target 'TA-Lib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
