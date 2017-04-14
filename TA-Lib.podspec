@@ -28,7 +28,7 @@ TA-Lib is also available as an easy to install Excel Add-Ins. Try it for free!
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aelam' => 'wanglun02@gmail.com' }
   s.source           = { :http => 'http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz' }
-
+  s.osx.deployment_target  = '10.8'
   s.ios.deployment_target = '6.0'
   s.source_files = '**/*.{h,c,mm,swift}'
 end
